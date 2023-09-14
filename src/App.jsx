@@ -1,9 +1,14 @@
 import "./App.css";
+import Header from "./Header";
+import Courses from "./Courses";
 
 function App() {
   return (
     <>
-      <h1 className=" text-4xl font-bold">Course Registration</h1>
+      <div className=" container mx-auto">
+        <Header></Header>
+        <Courses></Courses>
+      </div>
     </>
   );
 }

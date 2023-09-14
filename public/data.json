@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "course_name": "Web Development Fundamentals",
+    "course_description": "Learn the basics of web development, including HTML, CSS, and JavaScript.",
+    "image": "https://i.ibb.co/j3HPZ5s/web-development.jpg",
+    "price": 49.99,
+    "credit": 3
+  },
+  {
+    "id": 2,
+    "course_name": "Data Science for Beginners",
+    "course_description": "Introduction to data science and data analysis using Python.",
+    "image": "https://i.ibb.co/QFFjcj3/12643932-5031659.jpg",
+    "price": 59.99,
+    "credit": 4
+  },
+  {
+    "id": 3,
+    "course_name": "Graphic Design Mastery",
+    "course_description": "Master the art of graphic design using industry-standard tools.",
+    "image": "https://i.ibb.co/89fFBRs/graphic-design.jpg",
+    "price": 79.99,
+    "credit": 5
+  },
+  {
+    "id": 4,
+    "course_name": "Digital Marketing Strategies",
+    "course_description": "Learn effective digital marketing strategies and tactics.",
+    "image": "https://i.ibb.co/rbh6VF4/digital-marketing-with-icons-business-people.jpg",
+    "price": 69.99,
+    "credit": 4
+  },
+  {
+    "id": 5,
+    "course_name": "Machine Learning Essentials",
+    "course_description": "Fundamentals of machine learning and AI algorithms.",
+    "image": "https://i.ibb.co/0hV9Tjr/machine-learning.jpg",
+    "price": 89.99,
+    "credit": 5
+  },
+  {
+    "id": 6,
+    "course_name": "Photography for Beginners",
+    "course_description": "Get started with photography and master your camera.",
+    "image": "https://i.ibb.co/0sDBFrr/people-taking-pictures.jpg",
+    "price": 54.99,
+    "credit": 3
+  },
+  {
+    "id": 7,
+    "course_name": "Business Management Fundamentals",
+    "course_description": "Essential skills and knowledge for effective business management.",
+    "image": "https://i.ibb.co/Xs5HqNL/business-development.jpg",
+    "price": 79.99,
+    "credit": 4
+  },
+  {
+    "id": 8,
+    "course_name": "Creative Writing Workshop",
+    "course_description": "Unlock your creative writing potential with expert guidance.",
+    "image": "https://i.ibb.co/z7Zjx80/creativity-creative-ideas-imagination-inspiration-design-concept.jpg",
+    "price": 49.99,
+    "credit": 3
+  },
+  {
+    "id": 9,
+    "course_name": "Introduction to Cybersecurity",
+    "course_description": "Learn the basics of cybersecurity and protect your digital life.",
+    "image": "https://i.ibb.co/dkVJN0B/Cybersecurity.jpg",
+    "price": 64.99,
+    "credit": 4
+  }
+]
