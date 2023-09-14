@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "course_name": "Web Development Fundamentals",
+    "course_name": "Web Development Course",
     "course_description": "Learn the basics of web development, including HTML, CSS, and JavaScript.",
     "image": "https://i.ibb.co/j3HPZ5s/web-development.jpg",
     "price": 49.99,
