@@ -19,12 +19,10 @@ Currently, two official plugins are available:
 
 ### Discuss how you managed the state in your assignment project.
 State variables in the App.jsx file are as follows:
+
 **cart**: This variable keeps the selected courses in an array.
-
 **totalCredit**: Keeps track of the total credits of the selected courses.
-
 **remaining**: Keeps track of the remaining credit after selecting courses.
-
 **prices**: Stores the total prices of the selected courses.
 
 **handleSelect** is an onclick event handler that is called when a user selects a course. It takes the selected course as an argument.
