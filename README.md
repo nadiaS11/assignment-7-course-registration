@@ -25,6 +25,6 @@ State variables in the App.jsx file are as follows:
 **prices**: Stores the total prices of the selected courses.
 
 **handleSelect** is an onclick event handler that is called when a user selects a course. It takes the selected course as an argument.
--- It first checks whether the selected course is already in the cart.
--- If the course is not in the cart, it calculates the total credit after adding the course, checks if it's within a limit of 20 credits, and updates totalCredit, remaining, -prices, and the cart accordingly. It shows a toast message when a course gets selected after reaching the total credit limit of 20 and the remaining being 0.
--- If a selected course is already in the cart, it displays another toast message indicating that the course has already been added.
+- It first checks whether the selected course is already in the cart.
+- If the course is not in the cart, it calculates the total credit after adding the course, checks if it's within a limit of 20 credits, and updates totalCredit, remaining, -prices, and the cart accordingly. It shows a toast message when a course gets selected after reaching the total credit limit of 20 and the remaining being 0.
+- If a selected course is already in the cart, it displays another toast message indicating that the course has already been added.
