@@ -13,13 +13,13 @@ function Course({ course, handleSelect }) {
 
   return (
     <div className="mx-auto">
-      <div className="card mx-auto bg-base-100 shadow-xl">
+      <div className="card card-compact mx-auto bg-base-100 shadow-xl">
         <figure className="px-5 pt-5">
           <img src={image} alt="Shoes" className="rounded-xl w-full h-52" />
         </figure>
-        <div className="card-body min-h-[350px]">
+        <div className="card-body min-h-[290px]">
           <h2 className="card-title">{course_name}</h2>
-          <p>{course_description}</p>
+          <p className="text-[#1C1B1B99] text-sm">{course_description}</p>
           <div className=" flex  text-gray-500 font-semibold ">
             <p className="flex items-center">
               <span className="mr-2">

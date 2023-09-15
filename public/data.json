@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "course_name": "Web Development Course",
+    "course_name": "Web Development Fundamentals",
     "course_description": "Learn the basics of web development, including HTML, CSS, and JavaScript.",
     "image": "https://i.ibb.co/j3HPZ5s/web-development.jpg",
     "price": 49.99,
@@ -49,7 +49,7 @@
   },
   {
     "id": 7,
-    "course_name": "Business Management",
+    "course_name": "Business Management Fundamentals",
     "course_description": "Essential skills and knowledge for effective business management.",
     "image": "https://i.ibb.co/Xs5HqNL/business-development.jpg",
     "price": 79.99,

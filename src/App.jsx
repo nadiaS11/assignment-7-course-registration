@@ -33,10 +33,9 @@ function App() {
         } else {
           toast("You don't have enough credit.");
         }
+      } else {
+        toast("You cannot register for more than 20 credit");
       }
-      // else {
-      //   alert("You cannot register for more than 20 credit");
-      // }
     } else {
       toast("You have already added this course.");
     }
