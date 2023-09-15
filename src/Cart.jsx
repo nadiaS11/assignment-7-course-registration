@@ -3,7 +3,7 @@ Cart.propTypes = {
   cart: PropTypes.array,
 };
 
-function Cart({ cart, totalCredit, remaining }) {
+function Cart({ cart, totalCredit, remaining, prices }) {
   console.log(cart);
   return (
     <div className="py-5 mx-auto md:w-full lg:w-2/5">
@@ -21,8 +21,10 @@ function Cart({ cart, totalCredit, remaining }) {
             ))}
           </ol>
         </div>
-        <p className="text-lg font-medium">Total Credit: {totalCredit}</p>
-        <p className="text-base font-medium">Total Price: </p>
+        <hr className="border border-solid border-gray-400 my-4" />
+        <p className="text-lg font-medium">Total Credit Hour: {totalCredit}</p>
+        <hr className="border border-solid border-gray-400 my-4" />
+        <p className="text-lg font-semibold">Total Price: {prices} USD</p>
       </div>
     </div>
   );

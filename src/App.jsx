@@ -12,6 +12,7 @@ function App() {
   const [cart, setCart] = useState([]);
   const [totalCredit, setTotalCredit] = useState(0);
   const [remaining, setRemaining] = useState(0);
+  const [prices, setPrices] = useState(0);
   //button handler
   const handleSelect = (course) => {
     console.log(course);
@@ -23,9 +24,11 @@ function App() {
         newCredit += course.credit;
 
         const newRemainingCredit = 20 - newCredit;
+        const newPrice = course.price;
         if (newRemainingCredit >= 0) {
           setTotalCredit(newCredit);
           setRemaining(newRemainingCredit);
+          setPrices(prices + newPrice);
           setCart([...cart, course]);
         } else {
           toast("You don't have enough credit.");
@@ -50,6 +53,7 @@ function App() {
             cart={cart}
             totalCredit={totalCredit}
             remaining={remaining}
+            prices={prices}
           ></Cart>
         </div>
       </div>
