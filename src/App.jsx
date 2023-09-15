@@ -4,6 +4,10 @@ import Courses from "./Courses";
 import Cart from "./Cart";
 import { useState } from "react";
 
+import { ToastContainer, toast } from "react-toastify";
+
+import "react-toastify/dist/ReactToastify.css";
+
 function App() {
   const [cart, setCart] = useState([]);
   const [totalCredit, setTotalCredit] = useState(0);
@@ -24,19 +28,21 @@ function App() {
           setRemaining(newRemainingCredit);
           setCart([...cart, course]);
         } else {
-          alert("You don't have enough credit.");
+          toast("You don't have enough credit.");
         }
-      } else {
-        alert("You cannot register for more than 20 credit");
       }
+      // else {
+      //   alert("You cannot register for more than 20 credit");
+      // }
     } else {
-      alert("You have already added this course.");
+      toast("You have already added this course.");
     }
   };
   //
   return (
     <>
       <div className=" px-10 mx-auto">
+        <ToastContainer limit={1} />
         <Header></Header>
         <div className="md:flex gap-4 items-start justify-between">
           <Courses handleSelect={handleSelect}></Courses>

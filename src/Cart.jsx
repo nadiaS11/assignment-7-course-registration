@@ -1,5 +1,4 @@
 import PropTypes from "prop-types";
-
 Cart.propTypes = {
   cart: PropTypes.array,
 };
@@ -7,8 +6,8 @@ Cart.propTypes = {
 function Cart({ cart, totalCredit, remaining }) {
   console.log(cart);
   return (
-    <div className="py-5 ">
-      <div className="card min-w-[400px] bg-base-100 shadow-xl px-5 space-y-5 py-5">
+    <div className="py-5 mx-auto md:w-full lg:w-2/5">
+      <div className="card  bg-base-100 shadow-xl px-5 space-y-5 py-5">
         <h2 className=" pt-3 text-lg text-[#2F80ED]  font-semibold">
           Credit Hour Remaining: {remaining} hr
         </h2>

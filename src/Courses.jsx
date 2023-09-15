@@ -14,7 +14,7 @@ function Courses({ handleSelect }) {
       .then((data) => setCourses(data));
   }, []);
   return (
-    <div className="mx-auto ">
+    <div className="mx-auto">
       <div className="grid gap-5 md:grid-cols-1 lg:grid-cols-3 px-2 py-5">
         {courses.map((course) => (
           <Course
